@@ -18,8 +18,11 @@
         "name": "next"
       }
     ],
+
+    // 👇 THESE TWO LINES ARE THE IMPORTANT PART
+    "baseUrl": ".",                 
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]              // no ./ in front, points to src/
     }
   },
   "include": [
