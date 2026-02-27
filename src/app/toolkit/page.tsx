@@ -88,7 +88,6 @@ export default function ToolkitPage() {
             <h2 className="text-sm font-semibold text-slate-200">Profile</h2>
             <p className="text-xs text-slate-400">
               By default, the toolkit runs IPQuery, Censys, and SecurityTrails for each indicator.
-              Later we can add presets (Bug Bounty, Client Onboarding, etc.).
             </p>
           </Card>
           <Button type="submit" disabled={loading}>
@@ -130,7 +129,7 @@ export default function ToolkitPage() {
 
       {!results.length && !loading && !error && (
         <p className="mt-8 text-xs text-slate-500">
-          Paste a few targets and run recon to see bulk results. We can later add export to CSV/JSON.
+          Paste a few targets and run recon to see bulk results.
         </p>
       )}
     </div>
