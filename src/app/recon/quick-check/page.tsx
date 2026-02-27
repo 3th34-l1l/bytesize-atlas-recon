@@ -1,4 +1,6 @@
 // src/app/recon/quick-check/page.tsx
+export const dynamic = 'force-dynamic';
+
 import { Suspense } from 'react';
 import QuickCheckClient from './quick-check-client';
 
