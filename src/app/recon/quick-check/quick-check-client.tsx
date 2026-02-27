@@ -1,4 +1,5 @@
 // src/app/recon/quick-check/quick-check-client.tsx
+export const dynamic = 'force-dynamic';
 'use client';
 
 import { useEffect, useState } from 'react';

@@ -24,10 +24,12 @@ export default function Navbar() {
         </nav>
 
         <Link
-          href="/contact"
+          href="https://www.bytesizeconsult.ca/contact"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden rounded-xl bg-orange-500 px-4 py-2 text-sm font-semibold text-slate-950 shadow-[0_0_14px_rgba(249,115,22,0.7)] transition hover:brightness-110 md:inline-flex"
         >
-          Book Free Consultation
+  Book Free Consultation
         </Link>
       </div>
     </header>
